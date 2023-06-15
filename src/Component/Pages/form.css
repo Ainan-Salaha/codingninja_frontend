@@ -1,0 +1,98 @@
+/*classroom css*/
+
+.classroom_nav {
+  display: flex;
+  /* height: 200px; */
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.class_img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 4px 5px 4px 3px;
+}
+
+.class_logo_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.class_logo_div h2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: bolder;
+  /* font-size: 16px; */
+  line-height: 30px;
+  text-align: center;
+}
+.class_btn {
+  background-image: linear-gradient(90deg, #f96b24 0%, #ff9100 100%);
+  width: 340px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  color: #e1dedd;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.class_btn:hover {
+  background-image: linear-gradient(90deg, #ff9100 0%, #f96b24 100%);
+}
+/*Form css start*/
+.formContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px ;
+}
+
+.formData {
+    /* width: 40%; */
+    height: 545px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.minus span{
+    font-size: 3rem;
+    color: dimgray;
+}
+.formBtn{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-evenly; 
+gap: 10px;   
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+    
+}
+.nextBtn{
+    width: 150px;
+    height: 40px;
+    background-color: #ff9100;
+    border-radius: 15px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #e1dedd;
+}
+.prevBtn{
+    width: 150px;
+    height: 40px;
+    background-color: #ff9100;
+    border-radius: 15px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #e1dedd;
+}

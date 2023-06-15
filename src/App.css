@@ -1,32 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Mulish;
- 
-  /* -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: transparent; */
-    /* font-family: Mulish,Mulish,Helvetica,Arial,sans-serif; */
 }
+
 /*responsive*/
-@media screen and (max-width:900px) {
-  .navContainer{
+@media screen and (max-width: 900px) {
+  .miniMenu{
+    display: block;
+  }
+  .navContainer {
     display: none;
   }
-  .miniMenu{
-    display: block; 
+  .mini {
+    z-index: 99999;
+    height: 100%;
   }
-  .mainContainer{
-   
+  
+  .mainContainer {
     flex-direction: column;
     justify-content: center;
   }
-  .box{
+  .box {
     width: auto;
     flex-direction: column;
   }
-  .box_div{
+  .box_div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -40,32 +41,94 @@
     margin: 0;
     padding: 0;
   }
-  .homeimg3{
+  .homeimg3 {
     display: none;
   }
-  .updown_animation{
+  .updown_animation {
     width: 90%;
   }
-  .flexBox{
+  .flexBox {
     width: 100%;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .root_Container{
+  .root_Container {
     width: 50%;
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .hexa_div{
+  .hexa_div {
     height: 70vh;
-    /* flex-direction: column; */
-    
   }
-  .polyDiv{
+  .polyDiv {
     display: none;
   }
-  .loginContainer{
-width: 40%;
+  .loginContainer {
+    width: 40%;
   }
+  .footerContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footerMiddle {
+    flex-direction: column;
+  }
+  .footleft {
+    text-align: center;
+  }
+  .middleConatiner p {
+    margin-top: 20px;
+  }
+  .root {
+    display: none;
+  }
+  .payment_Div {
+    gap: 10px;
+  }
+  .class_logo_div h2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .class_logo {
+    width: 60%;
+  }
+  .Course_mainDiv {
+    height: 458vh;
+    margin-top: 40px;
+  }
+
+  .back {
+    top: 0;
+    left: 0;
+  }
+  .inputLable input {
+    width: inherit;
+  }
+  .formData {
+    width: 100%;
+  }
+  .formContainer {
+    height: 590px;
+  }
+  .dropdown_nav{
+    flex-direction: column;
+  }
+  .classroom{
+    color: black;
+  }
+  .enroll_btn {
+    flex-direction: column;
+  }
+  .enroll_back{
+    width: 100%;
+    height: 100%;
+    left: 0;
+  }
+  
+  .enroll_img{
+    width: auto;
+    height: 300px
+  }
+  
 }

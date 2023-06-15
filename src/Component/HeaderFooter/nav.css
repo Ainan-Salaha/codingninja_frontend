@@ -9,7 +9,7 @@
   align-items: center;
   color: #d2d2d6;
   height: 60px;
-   padding: 0 24px;
+  padding: 0 24px;
   font-size: 15px;
   letter-spacing: 0.5px;
   gap: 3rem !important;
@@ -106,6 +106,16 @@
 }
 .dropdown {
   display: block;
+}
+.classroom {
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #cbe5cc;
+}
+.classroom:hover {
+  padding-bottom: 10px;
+  border-bottom: 4px solid orange;
 }
 
 /*nav hover styling*/
@@ -226,18 +236,15 @@
   justify-content: space-evenly;
   align-items: center;
   background-color: #032d6b;
-}
-.mini {
-  background: white;
-  /* width: 100%; */
-  /* height: 100%; */
-  position: absolute;
-  top: 13%;
-  
-}
-.miniMenu{
   display: none;
 }
+
+.mini {
+  background: white;
+  position: absolute;
+  top: 13%;
+}
+
 .mini ul {
   list-style-type: none;
 }
@@ -245,7 +252,7 @@
   /* margin: 10px 30px; */
   text-decoration: none;
 }
-#minimenu {
+#minimenu1 {
   font-size: 2rem;
   width: 80px;
   border-radius: 13px;
@@ -260,4 +267,118 @@
   z-index: 99999;
   width: 600px;
   height: 300px;
+}
+
+/*Footer Container*/
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  /* padding: 50px 20px;  */
+}
+.dark_back {
+  background-color: #0a2541;
+}
+.footerContainer {
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px 20px;
+  /* height: 400px; */
+}
+.footerImg {
+  height: 76px;
+  margin-top: 19px;
+  max-width: 100%;
+}
+.footerContainer p {
+  display: block;
+  width: 212px;
+  color: #d2d2d6;
+}
+.footleft {
+  width: 15%;
+  margin-left: 50px;
+}
+.footerMiddle {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.middleConatiner {
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+}
+.middleConatiner p {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 20px;
+}
+.links {
+  color: #eee;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 200%;
+  font-weight: 600;
+  list-style-type: none;
+  cursor: pointer;
+  margin: 0;
+}
+.links li:hover {
+  width: fit-content;
+  color: #f96b24;
+  border-bottom: 4px solid orange;
+}
+
+.rightContainer p {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 20px;
+}
+.containerImg {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.containerImg img {
+  width: 42px;
+}
+.imgg {
+  width: 18px;
+  height: 18px;
+  margin-right: 17px;
+}
+.link_div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.payment_Div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .miniMenu {
+    display: block;
+    display: flex;
+  }
+  .classroom {
+    color: olivedrab;
+  }
+  .mainDiv{
+    margin-top:50px ;
+  }
 }

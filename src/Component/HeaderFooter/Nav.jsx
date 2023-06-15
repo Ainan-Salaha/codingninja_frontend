@@ -62,7 +62,7 @@ const Nav = () => {
                           No work
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           &gt;
-                          <br /> experience{" "}
+                          <br /> experience
                         </h1>
                       </div>
                       <p>Designed as per college student schedule</p>
@@ -77,7 +77,7 @@ const Nav = () => {
                       <div>
                         <h1>
                           Having work &nbsp;&nbsp; &gt;
-                          <br /> experience{" "}
+                          <br /> experience
                         </h1>
                       </div>
                       <div>Designed as per working professional schedule</div>
@@ -129,6 +129,9 @@ const Nav = () => {
                 <>
                   <span className="dropdown">
                     <span className="loginBtn">{auth?.user.name}</span>
+                    <Link to="/classroom" className="classroom">
+                      My Classroom
+                    </Link>
                     <Link
                       onClick={handleLogout}
                       to="/login"
@@ -148,7 +151,7 @@ const Nav = () => {
         {/* responsive nav bar */}
       </div>
       <div className="miniMenu">
-        <button onClick={handleMenu} id="minimenu">
+        <button onClick={handleMenu} id="minimenu1">
           <i className="fa-solid fa-bars"></i>
         </button>
         <img
@@ -167,13 +170,13 @@ const Nav = () => {
             <>
               <span className="dropdown">
                 <span className="loginBtn">{auth?.user.name}</span>
-                <Link
+                {/* <Link
                   onClick={handleLogout}
                   to="/login"
                   style={{ color: "orange", cursor: "pointer" }}
                 >
                   Logout
-                </Link>
+                </Link> */}
               </span>
             </>
           )}

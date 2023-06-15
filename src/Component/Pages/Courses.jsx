@@ -14,9 +14,9 @@ const Courses = () => {
     },[])
 
   return (
-    <div>
+    <div className='Course_mainDiv'>
         <h1 style={{textAlign:"center"}}>Course Details</h1>
-        <Link to="/home">
+        <Link to="/">
               <span className='back'>
                 <i className="fa-solid fa-xmark"></i>
               </span>

@@ -39,7 +39,7 @@ const Login = () => {
   };
 
   return (
-    <>
+    <div className="login_bg">
       <div className="loginContainer">
         <div className="login_text">
           <h2 style={{ textAlign: "center" }}>
@@ -119,7 +119,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

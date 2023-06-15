@@ -37,7 +37,7 @@ const Signup = () => {
   };
 
   return (
-    <>
+    <div className="sign_bg">
 
       <div className="signupContainer">
         <div className="login_text">
@@ -87,7 +87,7 @@ const Signup = () => {
         </div>
       </div>
     </div>
-    </>
+    </div>
   );
 };
 
